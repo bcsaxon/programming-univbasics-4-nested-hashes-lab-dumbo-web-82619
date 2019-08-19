@@ -39,7 +39,7 @@ def alan_kay_is_known_for
         }
      }
 
-return programmer_hash[:alan_kay][:known_for]  
+return programmer_hash[:alan_kay][:known_for]
 
 end
 
@@ -59,6 +59,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+
+		programmer_hash[:dennis_ritchie][:language] = "C" 
 end
 
 def adding_matz
