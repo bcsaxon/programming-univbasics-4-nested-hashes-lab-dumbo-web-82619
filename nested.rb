@@ -19,7 +19,7 @@ def hopper
 
 end
 
-puts programmer_hash
+puts programmer_hash[0]
 
 
 def alan_kay_is_known_for
